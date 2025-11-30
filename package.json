@@ -1,0 +1,26 @@
+{
+  "name": "cypress-pos-unipe-iv",
+  "version": "1.0.0",
+  "description": "Projeto de Testes - Pos Unipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faellima/cypress-pos-unipe-IV.git"
+  },
+  "keywords": [
+    "Test",
+    "Unipe"
+  ],
+  "author": "Rafael Ramos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/faellima/cypress-pos-unipe-IV/issues"
+  },
+  "homepage": "https://github.com/faellima/cypress-pos-unipe-IV#readme",
+  "dependencies": {
+    "cypress": "^15.6.0"
+  }
+}
