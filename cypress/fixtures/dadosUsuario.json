@@ -1,0 +1,10 @@
+{
+  "usuarioValido": {
+    "email": "email.de.teste@automacao.com",
+    "senha": "SenhaForte123456"
+  },
+  "usuarioInvalido": {
+    "email": "invalido@teste.com",
+    "senha": "123"
+  }
+}

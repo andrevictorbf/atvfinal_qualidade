@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/faellima/cypress-pos-unipe-IV#readme",
   "dependencies": {
-    "cypress": "^15.6.0"
+    "cypress": "^15.7.0"
   }
 }
