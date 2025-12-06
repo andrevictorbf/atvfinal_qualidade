@@ -22,5 +22,8 @@
   "homepage": "https://github.com/faellima/cypress-pos-unipe-IV#readme",
   "dependencies": {
     "cypress": "^15.7.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.4"
   }
 }

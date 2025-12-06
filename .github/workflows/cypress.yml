@@ -17,5 +17,5 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           start: ''
-          base-url: 'https://automationexercise.com/'
-          browser: chrome
+          browser: chrome 
+          config: baseUrl=https://automationexercise.com/
