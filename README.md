@@ -1,19 +1,23 @@
 # cypress-pos-unipe-IV
 
-> Repositório de atividades e práticas da Turma IV — Módulo de Testes e Qualidade de Software (Unipê).  
-> Projeto base do professor Rafael Ramos adaptado para fins didáticos pelo grupo responsável.
+> Repositório de atividades e práticas da Turma IV — Módulo de Testes e Qualidade de Software (Unipê).
+> **Este é o repositório de entrega final do Plano de Teste (Seção 4.7)**. Projeto base do professor Rafael Ramos adaptado para fins didáticos pelo grupo responsável.
 
 Badges: ![status](https://img.shields.io/badge/status-active-brightgreen) ![license](https://img.shields.io/badge/license-MIT-blue)
+
+**Aplicação em Teste (SUT):** `https://automationexercise.com/`
 
 ---
 
 ## Índice
 - [Sobre](#sobre)
+- [Escopo dos Testes](#escopo-dos-testes)
 - [Recursos](#recursos)
 - [Pré-requisitos](#pré-requisitos)
 - [Instalação](#instalação)
 - [Executando os testes (Cypress)](#executando-os-testes-cypress)
 - [Estrutura do projeto](#estrutura-do-projeto)
+- [Boas Práticas](#boas-práticas)
 - [Contribuidores](#contribuidores)
 - [Licença](#licença)
 - [Contato](#contato)
@@ -21,7 +25,12 @@ Badges: ![status](https://img.shields.io/badge/status-active-brightgreen) ![lice
 ---
 
 ## Sobre
-Este repositório contém atividades, materiais e exemplos relacionados ao ensino de Testes e Qualidade de Software. O foco é demonstrar automação de testes (com Cypress), boas práticas e exercícios aplicados em sala.
+Este repositório contém o conjunto de testes automatizados desenvolvido em **Cypress** como parte do **Projeto de Conclusão do Módulo**. O foco é demonstrar a automação de testes funcionais (E2E e API) aplicados ao **Projeto WebCom** e a utilização de CI/CD (GitHub Actions) para execução e controle de qualidade.
+
+## Escopo dos Testes
+A suíte de testes abrange um total de **10 Casos de Teste** (8 E2E e 2 API). O objetivo é garantir a cobertura de regressão dos principais requisitos do sistema (Registro, Pesquisa, Carrinho e Checkout).
+
+*O detalhamento completo dos testes e dos resultados da execução via CI/CD está disponível no documento principal do projeto: **Documentação.docx (Plano de Teste)**.*
 
 ## Recursos
 - Exemplos de testes end-to-end com Cypress
@@ -68,7 +77,7 @@ Observação: Se houver um servidor backend necessário, inicie-o antes de execu
 - Execute CI com execução headless dos testes.
 
 ## Contribuidores
-- Grupo Responsável: Andre Victor, Leoncio Fernandes, Igor Brito  
+- Grupo Responsável: Andre Victor, Igor Brito, Leoncio Fernandes
 - Projeto base: Professor Rafael Ramos (uso didático)
 
 ## Licença
