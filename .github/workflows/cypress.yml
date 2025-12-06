@@ -1,0 +1,21 @@
+name: End-to-end tests
+
+on: 
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: 
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Rodar Testes (E2E e API) contra a SUT Externa
+        uses: cypress-io/github-action@v5
+        with:
+          start: ''
+          base-url: 'https://automationexercise.com/'
+          browser: chrome
